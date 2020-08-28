@@ -41,6 +41,11 @@ async def drama(ctx):
     drama = requests.get('https://mc-drama.herokuapp.com/raw')
     await ctx.send(drama.text)
 
+@bot.group()
+async def fdrama(ctx):
+    fdrama = requests.get('https://fabric-drama.herokuapp.com/txt')
+    await ctx.send(fdrama.text)
+
 keep_alive()
 token = os.environ.get("TOKEN")
 bot.run(token)
