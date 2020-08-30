@@ -11,7 +11,8 @@ A hosted copy of the bot is located **[here](https://discord.com/oauth2/authoriz
 * [Discord.py](https://discordpy.readthedocs.io/en/latest/index.html)
 * [Requests](https://requests.readthedocs.io/)
 * [Flask](https://flask.palletsprojects.com/)
-* [drama-rb](https://pypi.org/project/chardet/)
+* [drama-rb](https://github.com/elifoster/drama-rb)
+* [fabric-drama](https://github.com/fabric-community/MCDrama)
 
 ## 🎓 License
 This project is MIT Licensed. See the [LICENSE](LICENSE.md) file for details
